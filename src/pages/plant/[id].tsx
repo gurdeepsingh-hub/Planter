@@ -167,7 +167,7 @@ export const getServerSideProps: GetServerSideProps<FinderProps> = async (
   // Pass data to the page via props
   return { props: { ...res } };
 };
-
+export default Page;
 const BackIcon: React.FC = () => {
   return (
     <svg
