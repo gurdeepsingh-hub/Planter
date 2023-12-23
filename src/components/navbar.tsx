@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import img from "@/../../public/leaf.png";
+import { useRouter } from "next/router";
+import { MouseEvent } from "react";
 
 interface Option {
   name: string;
@@ -23,6 +25,13 @@ const options: Option[] = [
 ];
 
 const Navbar: React.FC = () => {
+  const router = useRouter();
+  const handleSubmit = (
+    e: MouseEvent<HTMLButtonElement, globalThis.MouseEvent>
+  ) => {
+    e.preventDefault();
+    router.push("/finder");
+  };
   return (
     <nav className="flex justify-between px-10 pt-5 items-center bg-white  backdrop-blur-sm ">
       <div className="flex items-center opacity-100">
@@ -42,7 +51,10 @@ const Navbar: React.FC = () => {
         ))}
       </div>
       <div>
-        <button className="flex items-center gap-2 rounded-full border border-black border-1 px-3 py-1">
+        <button
+          className="flex items-center gap-2 rounded-full border border-black border-1 px-3 py-1"
+          onClick={(e) => handleSubmit(e)}
+        >
           {" "}
           Try Now
           <svg

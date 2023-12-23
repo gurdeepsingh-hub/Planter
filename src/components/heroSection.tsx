@@ -25,14 +25,14 @@ const HeroSection: React.FC = () => {
           </div>
           <div className="container basis-5/12">
             <div className=" bg-white  px-10 py-5 rounded-tl-none rounded-3xl">
-              Welcome to our Plant Specs App! 🌿 Discover the fascinating world
-              of plants by simply entering their names. From vibrant flowers to
-              lush foliage, our app brings you detailed specifications on each
-              plant. Explore growth habits, care tips, sunlight requirements,
-              and more. Whether you're a seasoned gardener or a budding plant
-              enthusiast, our Plant Specs App is your go-to resource for
-              cultivating a thriving green oasis. Let's dive into the beauty and
-              science of plants together!
+              Welcome to Planter! 🌿 Discover the fascinating world of plants by
+              simply entering their names. From vibrant flowers to lush foliage,
+              our app brings you detailed specifications on each plant. Explore
+              growth habits, care tips, sunlight requirements, and more. Whether
+              you&apos;re a seasoned gardener or a budding plant enthusiast, our
+              Planter App is your go-to resource for cultivating a thriving
+              green oasis. Let&apos;s dive into the beauty and science of plants
+              together!
             </div>
           </div>
           <div className="container basis-1/12"></div>
