@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
     router.push("/finder");
   };
   return (
-    <nav className="flex justify-between px-10 pt-5 items-center bg-white  backdrop-blur-sm ">
+    <nav className="flex h-[10vh] justify-between px-10 pt-5 items-center bg-white  backdrop-blur-sm ">
       <div className="flex items-center opacity-100">
         <div className="h-10 w-10">
           <Image src={img} alt="logo" width={0} height={0} />
