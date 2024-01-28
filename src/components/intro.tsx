@@ -27,12 +27,12 @@ const Intro = () => {
                 habits, care tips, sunlight requirements, and more.
               </p>
               <p className="text-lg mb-8">
-                Whether you're a seasoned gardener or a budding plant
+                Whether you&apos;re a seasoned gardener or a budding plant
                 enthusiast, our Planter App is your go-to resource for
                 cultivating a thriving green oasis.
               </p>
               <p className="text-lg">
-                Let's dive into the beauty and science of plants together!
+                Let&apos;s dive into the beauty and science of plants together!
               </p>
             </div>
           </div>

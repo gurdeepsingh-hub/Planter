@@ -45,9 +45,9 @@ const HeroSection: React.FC = () => {
           <div className="container basis-5/12">
             <div className=" bg-white  px-10 py-5 rounded-tl-none rounded-3xl">
               Welcome to Planter! 🌿 Explore plants effortlessly with our app.
-              Whether you're a pro gardener or just starting, Planter is your
-              green oasis guide. Let's dive into the beauty and science of
-              plants together! 🌱✨
+              Whether you&apos;re a pro gardener or just starting, Planter is
+              your green oasis guide. Let&apos;s dive into the beauty and
+              science of plants together! 🌱✨
             </div>
           </div>
           <div className="container basis-1/12"></div>
