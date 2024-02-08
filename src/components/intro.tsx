@@ -7,7 +7,7 @@ const Intro = () => {
       <div className="flex w-full h-full bg-white">
         <div className="basis-1/2 h-[90%] self-center rounded-3xl overflow-hidden">
           <Image
-            src={"/intro.jpg"}
+            src={"/intro.jpeg"}
             width={500}
             height={500}
             alt="intro"
